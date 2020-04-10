@@ -1,0 +1,55 @@
+body { background: #dddd; margin: 0px; padding: 0px; box-sizing: border-box; font-family: 'Open Sans', sans-serif; }
+.mainContainer {  width: 1000px;  margin: 0 auto;  }
+.leftSide { width: 300px;     background: rgba(0,0,0,.08); float: left; min-height:700px; padding: 15px; box-sizing: border-box; }
+.rightSide { width: 700px; background: #fff; float: left; min-height: 700px; padding: 15px; box-sizing: border-box;}
+
+ul.mainMenu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.text-center {  text-align: center; }
+ul.mainMenu li {
+    display: inline-block;
+}
+
+.btnFind {  background-color: #6c8bfb; color: #fff; padding: 10px 30px; border: none;  }
+
+.leftSide input {
+    width: 100%;
+    height: 27px;}
+
+    .leftSide select {
+        width: 100%;
+        height: 27px;}
+
+ul.mainMenu li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    background: #6c8bfb;
+    display: inline-block;
+}
+
+ul.mainMenu li a:hover {
+    background: #1472ff;
+}
+
+.Banner img {
+    width: 100%;
+}
+
+.cardBox {
+    width: 31.3333%;
+    background: #fff;
+    display: inline-block;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-height: 206px;
+}
+
+
+.cardBox h3 { margin: 0 0  10px 0px; }

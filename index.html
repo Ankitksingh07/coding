@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <h2 class="text-center">Railway Reservation System</h2>
+        <!-- left Side bar start -->
+       <div class="leftSide">
+           <h2>Book Your Tickets Here</h2>
+        <form action="/signup" method="post">
+            <p>
+              <label>From</label><br>
+              <input type="text" name="from">
+            </p>
+            <p>
+              <label>To</label><br>
+              <input type="text" name="to">
+            </p>
+            <p>
+              <label>Date</label><br>
+              <input type="date" name="date" >
+            </p>
+            <p>
+              <label>All Classes</label><br>
+              <select>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>E</option>
+              </select>
+            </p>
+         
+            <p>
+              <button class="btnFind">Find Trains</button>
+              
+            </p>
+          </form>
+       </div>
+        <!-- left Side bar End -->
+
+        <!-- left Rght bar start -->
+       <div class="rightSide">
+           <nav>
+               <ul class="mainMenu">
+                   <li>   <a href="#!">Home</a></li>
+                   <li> <a href="#!">Meals </a></li>
+                   <li> <a href="#!">Holiday Packages </a></li>
+                   <li> <a href="#!">Service at station </a></li>
+                   <li> <a href="#!">Contact Us </a></li>
+               </ul>
+           </nav>
+           <div class="Banner"> 
+               <img src="images/train.jpg" alt="">
+           </div>
+           <div class="serviceOuter">
+            <h2> Holidays</h2>
+
+            
+             <!-- First Box-->
+             <div class="cardBox"><h3>Tourist Trains</h3>
+                <p>Exclusive Rail tour packages with confirmed train tickets, sight-seeing and meals for enchanting Nilgiri Mountains, Darjeeling, Kullu Manali, Kashmir, Gangtok or divine tours of Vaishno Devi,Rameswaram,Tirupati ,etc. Holiday packages and packages to these destinations are also available.</p>
+                <div class="Banner"> 
+                </div>
+            </div>
+
+
+              <!-- Second Box-->
+              <div class="cardBox"><h3>International Package</h3>
+                <p>Best deals in International Holiday packages, for Thailand, Dubai, Sri Lanka, Hong Kong, Macau, Bhutan, Nepal, Europe, USA, Australia etc. The packages are inclusive of sightseeing, meals, visa charges and overseas medical insurance to give you a memorable experience.</p>
+                <div class="Banner"> 
+                </div>
+            </div>
+
+
+               <!-- third Box-->
+               <div class="cardBox"><h3>National package</h3>
+                <p>Be it the spiritual devotee seeking blessings of Tirupati, Shirdi or Mata Vaishno Devi or the leisure traveller wanting to relish the Blue mountains of North East, Sand-dunes of Rajasthan, Hamlets of Ladakh, Wonders of Himalayas, Serene lakes or Picturesque Islands,Discover India.</p>
+                <div class="Banner"> 
+                   
+                </div>
+            </div>
+
+
+           </div>
+       </div>
+       <!-- left right bar End -->
+
+    </div>
+</body>
+</html>
